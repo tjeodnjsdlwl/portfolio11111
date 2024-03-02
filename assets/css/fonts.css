@@ -1,0 +1,87 @@
+
+@font-face{
+  font-display: auto;
+  font-family:"twklausanne";
+  font-style:normal;
+  font-weight:700;
+  src:url('../fonts/3413twklausanne.woff2') format('woff2');
+}
+@font-face{
+  font-display: auto;
+  font-family:"twklausanne";
+  font-style:normal;
+  font-weight:200;
+  src:url('../fonts/6035twklausanne.woff2') format('woff2');
+}
+@font-face{
+  font-display: auto;
+  font-family:"twklausanne";
+  font-style:normal;
+  font-weight:300;
+  src:url('../fonts/8186twklausanne.woff2') format('woff2');
+}
+@font-face{
+  font-family:"neuemachina";
+  font-style:normal;
+  font-display: auto;
+  src:url('../fonts/3856NeueMachina.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family:"Work Sans";
+  font-style:normal;
+  font-weight:300;
+  src:url('../fonts/WorkSans-Light.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family:"Work Sans";
+  font-style:normal;
+  font-weight:500;
+  src:url('../fonts/WorkSans-Medium.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family:"Work Sans";
+  font-style:normal;
+  font-weight:600;
+  src:url('../fonts/WorkSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face{
+  font-display: swap;
+  font-family:"AkzidenzGroteskBE-Md";
+  font-style:normal;
+  font-weight:600;
+  src:url('../fonts/AkzidenzGroteskBE-Md.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family:"kzidenzGroteskBE-Regular";
+  font-style:normal;
+  font-weight:300;
+  src:url('../fonts/AkzidenzGroteskBE-Regular.woff2') format('woff2');
+}
+
+
+@font-face{
+  font-display: swap;
+  font-family: "Konnect";
+  font-style:normal;
+  font-weight:400;
+  src:url('../fonts/646483f3e81b76287a0daaf2_Konnect-Regular.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family: "Konnect";
+  font-style:normal;
+  font-weight:300;
+  src:url('../fonts/646483f6ff1b9504a8d93b89_Konnect-Light.woff2') format('woff2');
+}
+@font-face{
+  font-display: swap;
+  font-family: "Konnect-italic";
+  font-style:italic;
+  font-weight:300;
+  src:url('../fonts/646483f351fa167831598b82_Konnect-LightItalic.woff2') format('woff2');
+}

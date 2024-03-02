@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>   
+  <script src="./assets/js/split.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+
+  <script src="./assets/js/common.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+
+  
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+  <div class="cursor-wrap">
+    <div class="cursor-in">
+      <div class="cursor-circle"></div>
+      <span class="cursor-text"></span>
+      <span class="cursor-text"></span>
+    </div>
+  </div>
+
+  <div class="intro-wrap">
+    <div class="inner">
+      <p id="intro-text"></p>
+    </div>
+  </div>
+  
+  <div class="wrap">
+    <header class="header" id="header">
+      <h1 class="logo"><a href="">A<br>ZERO</a></h1>
+      <nav class="gnb">
+        <ul class="gnb-list">
+          <li class="gnb-item">
+            <a href="">
+            <div class="menu-text">WORK (5)</div>
+            <div class="menu-text">WORK (5)</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+            <div class="menu-text">CAREER (12)</div>
+            <div class="menu-text">CAREER (12)</div>
+            </a>
+          </li>
+          <!-- <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">AGENCY</div>
+              <div class="menu-text">AGENCY</div>
+            </a>
+          </li> -->
+          <!-- <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">SERVICES</div>
+              <div class="menu-text">SERVICES</div>
+            </a>
+          </li> -->
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">ARCHIVE</div>
+              <div class="menu-text">ARCHIVE</div>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="">
+              <div class="menu-text">INSIGETS</div>
+              <div class="menu-text">INSIGETS</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main" id="main">
+      <section class="main-visual">
+        <h2 class="blind">메인비주얼</h2>
+        <div class="gorup-textwrap">
+          <div class="inner">
+            <div class="visual-textwrap">
+              <div class="visual-text-unit"><span class="text">PRODUCT</span></div>
+              <div class="visual-text-unit"><span class="text">AND VISUAL</span></div>
+              <div class="visual-text-unit"><span class="text italic">DESIGNER</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="gorup-videowrap">
+          <div class="inner">
+            <div class="video-text">
+              <p>Showreel /23 — Some of my selected work from this time</p>
+            </div>
+            <div class="video-wrap">
+              <div class="black-bg"></div>
+              <div class="video-inner">
+                <video autoplay loop muted playinline src="./assets/video/main-video.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="sect-project">
+        <div class="group-project">
+          <div class="project-area">
+            <div class="project-title">
+              <h2>WORK</h2>
+            </div>
+            <div class="project-list-wrap">
+              <div class="project-list-blank"></div>
+              <div class="project-list">
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">1</span><img class="img" src="./assets/images/" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">NAVER</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">
+                        <video class="video" autoplay loop muted playinline src="./assets/video/kozowood.mp4"></video>
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">KOZOWOOD</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">                        
+                        <img src="https://www.enterpriseblockchain.io/assets/img/creator/creator-sec-bg.jpg" alt="" class="img">
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">ENTERPRISE</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><img class="img" src="./assets/images/lokect.png" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">LOKET.DESIGN</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">5</span><img class="img" src="./assets/images/aim.png" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">AIM.OBYS.AGENCY</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img"><span class="count">6</span><img class="img" src="./assets/images/hazzys.jpg" alt=""></div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">HAZZYS</span><span class="project-year">2023</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-item-inner">
+                    <a href="">
+                      <div class="project-img">
+                        <video class="video" autoplay loop muted playinline src="./assets/video/ottogi.mp4"></video>
+                      </div>
+                      <div class="project-info">
+                        <h3 class="project-name"><span class="name">OTTOGI</span><span class="project-year">year</span></h3>
+                        <div class="description">Website, Logo design, Photography</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- project-list -->
+            </div><!-- project-list-wrap -->
+          </div>
+          <div class="project-more">
+            <a href="">
+              <div class="project-more-motion">
+                <div class="split">2023 WORK →</div>
+              </div>
+              <div class="project-more-motion">
+                <div class="split">2023 WORK →</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section><!-- sect-project -->
+    
+      <section class="sect-about">
+        <div class="group-top">
+          <div class="inner">
+            <div class="about-top-area">
+              <div class="left">
+                <h2>A PLACE<br>FOR THE</h2>
+                <div class="about-top-img"><img src="./assets/images/about-img.webp" alt=""></div>
+              </div>
+              <div class="center"><div class="line"></div></div>
+              <div class="right">
+                <div class="about-top-text-wrap">
+                  <div class="about-top-text-unit">BEST</div>
+                  <div class="about-top-text-unit">MINDS</div>
+                  <div class="about-top-text-unit">IN</div>
+                  <div class="about-top-text-unit">MUSIC</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- group-top -->
+        <div class="group-bottom">
+          <div class="inner">
+            <div class="line"></div>
+            <div class="right">
+              <div class="about-bottom-text-wrap">
+                <div class="about-bottom-text-in">
+                  <h3>(ABOUT US)</h3>
+                  <div class="description">
+                    <p>A place for the best minds in music<em> –</em> and where brands and agencies come to discover the best music – the kind that connects with audiences, moves people and contributes to culture. 15 years on our team has grown and we’ve won numerous awards.</p>
+                    <p>We’re still united by the same drive to create exciting, original work at the highest level. Now, we’re doing it on an international stage. As we expand, we’re letting creative opportunity be the measure of where to go next.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- group-bottom -->
+    
+      </section><!-- sect-about -->
+      <section class="sect-marquee">
+        <div class="group-marquee">
+          <div class="about-marquee-wrap">
+            <div class="about-marquee-in">
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+              <div class="about-marquee-unit">Original artistry at scale</div>
+            </div>
+          </div>
+        </div><!-- group-marquee -->
+      </section>
+    
+    </main>
+    
+    <footer class="footer" id="footer">
+      <div class="inner">
+        <div class="footer-layout">
+          <small>© Art Rebel 9</small>
+          <p class="call">+386 1 236 16 80</p>
+          <p class="mail">hello@artrebel9.com</p>
+          <ul class="etc-list">
+            <li><a href="">Velog</a></li>
+            <li><a href="">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
